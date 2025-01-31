@@ -1,0 +1,27 @@
+{
+  "name": "dribug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:seed": "tsx src/seed.ts",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "drizzle-orm": "^0.39.1",
+    "nanoid": "^5.0.9"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "@types/node": "^22.12.0",
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.4",
+    "tsx": "^4.19.2"
+  }
+}
